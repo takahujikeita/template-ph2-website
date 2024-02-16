@@ -136,7 +136,7 @@ select,
 textarea {
   -webkit-appearance: none; /* 1 */
   -moz-appearance: none;
-       appearance: none;
+      appearance: none;
   background: transparent;
   border-radius: 0;
   color: inherit;
@@ -151,13 +151,13 @@ textarea {
 [type=checkbox] {
   -webkit-appearance: checkbox;
   -moz-appearance: checkbox;
-       appearance: checkbox;
+      appearance: checkbox;
 }
 
 [type=radio] {
   -webkit-appearance: radio;
   -moz-appearance: radio;
-       appearance: radio;
+      appearance: radio;
 }
 
 button,
