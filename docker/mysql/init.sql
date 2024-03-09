@@ -56,3 +56,13 @@ insert into choice(question_id,name,valid) values
 ('6','約2倍','0'),
 ('6','約5倍','1'),
 ('6','約11倍','0');
+
+create table users(
+    id int primary key auto_increment,
+    name varchar(255),
+    email varchar(255),
+    password varchar(255)
+);
+
+insert into users(id, name, email, password)values
+(1,'自分の名前','keta37594@gmail.com','0794heihei');

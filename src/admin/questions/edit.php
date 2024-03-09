@@ -18,6 +18,7 @@ $stmt->execute();
 $question = $stmt->fetch();
 
 //choicesのテーブル名は”choice”！！！！！
+
 $sql = "SELECT * FROM choice WHERE question_id = :question_id";
 $stmt = $dbh->prepare($sql);
 $stmt->bindValue(":question_id", $_REQUEST["id"]);
